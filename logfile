@@ -1,0 +1,24 @@
+2024-07-03 10:05:28.673 -05 [32746] LOG:  starting PostgreSQL 16.3 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-07-03 10:05:28.681 -05 [32746] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-07-03 10:05:28.681 -05 [32746] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-07-03 10:05:28.681 -05 [32746] WARNING:  could not create listen socket for "localhost"
+2024-07-03 10:05:28.681 -05 [32746] FATAL:  could not create any TCP/IP sockets
+2024-07-03 10:05:28.686 -05 [32746] LOG:  database system is shut down
+2024-07-03 10:09:31.869 -05 [12308] LOG:  starting PostgreSQL 16.3 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-07-03 10:09:31.882 -05 [12308] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-07-03 10:09:31.910 -05 [12308] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-07-03 10:09:31.951 -05 [12354] LOG:  database system was shut down at 2024-07-03 10:03:51 -05
+2024-07-03 10:09:32.002 -05 [12308] LOG:  database system is ready to accept connections
+2024-07-03 10:14:32.056 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 10:16:09.882 -05 [12352] LOG:  checkpoint complete: wrote 957 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=96.571 s, sync=0.198 s, total=97.831 s; sync files=313, longest=0.009 s, average=0.001 s; distance=4428 kB, estimate=4428 kB; lsn=0/19444E8, redo lsn=0/19444B0
+2024-07-03 12:52:27.691 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 12:52:41.724 -05 [12352] LOG:  checkpoint complete: wrote 138 buffers (0.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=13.884 s, sync=0.110 s, total=14.033 s; sync files=116, longest=0.006 s, average=0.001 s; distance=632 kB, estimate=4049 kB; lsn=0/19E28E0, redo lsn=0/19E28A8
+2024-07-03 12:57:27.822 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 12:57:28.840 -05 [12352] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.952 s, sync=0.015 s, total=1.020 s; sync files=7, longest=0.006 s, average=0.003 s; distance=1 kB, estimate=3644 kB; lsn=0/19E2D70, redo lsn=0/19E2D38
+2024-07-03 13:07:27.999 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 13:07:29.354 -05 [12352] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.263 s, sync=0.023 s, total=1.360 s; sync files=10, longest=0.007 s, average=0.003 s; distance=2 kB, estimate=3280 kB; lsn=0/19E35B0, redo lsn=0/19E3578
+2024-07-03 14:39:48.808 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 14:39:51.408 -05 [12352] LOG:  checkpoint complete: wrote 26 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.549 s, sync=0.017 s, total=2.604 s; sync files=20, longest=0.005 s, average=0.001 s; distance=4 kB, estimate=2952 kB; lsn=0/19E48C8, redo lsn=0/19E4890
+2024-07-03 14:44:48.508 -05 [12352] LOG:  checkpoint starting: time
+2024-07-03 14:44:48.695 -05 [12352] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.132 s, sync=0.006 s, total=0.188 s; sync files=2, longest=0.006 s, average=0.003 s; distance=1 kB, estimate=2657 kB; lsn=0/19E4DC8, redo lsn=0/19E4D90
+2024-07-03 15:14:32.730 -05 [11814] FATAL:  database "u0_a71" does not exist

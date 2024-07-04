@@ -65,16 +65,10 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }    
- 
 
 
-.cont {
-  display: flex;
-  justify-content:flex-end;
-
+.comment {
+    margin: 20px 0px 20px 20px;
 }
 
-.icon {
-   margin-left:20px;
 
-}

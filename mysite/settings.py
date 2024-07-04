@@ -76,8 +76,15 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE':'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+
+      #  'ENGINE': 'django.db.backends.postgresql',
+      #  'NAME': 'my-first-blog-main',
+      #  'USER': 'milton',
+      #  'PASSWORD': '',
+      #  'HOST': 'localhost',
+      #  'PORT': '',
     }
 }
 
@@ -123,3 +130,10 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+LOGIN_REDIRECT_URL = '/'
+
+
